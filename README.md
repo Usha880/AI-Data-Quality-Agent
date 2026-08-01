@@ -55,17 +55,6 @@ Suggested Dashboard KPIs
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots of your application here.
-
-Example:
-
-- Home Page
-- Dataset Analysis
-- AI Business Insights
-
----
 
 ## ▶️ Installation
 
