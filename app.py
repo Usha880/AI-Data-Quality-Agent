@@ -1,12 +1,10 @@
 import streamlit as st
 import pandas as pd
-import os 
-from dotenv import load_dotenv
 import google.generativeai as genai
 
-load_dotenv()
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 genai.configure(api_key=GEMINI_API_KEY)
+
 model = genai.GenerativeModel("gemini-2.5-flash")
 
 st.set_page_config(page_title="AI Data Quality Agent")
